@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prediksi 2D/3D/4D/5D/6D</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar__brand">
+      <strong>BOLEAN</strong>
+      <span>Prediksi</span>
+    </div>
+    <nav class="topbar__nav">
+      <a href="/prediksi"><button>Prediksi</button></a>
+      <a href="/referensi"><button>Referensi</button></a>
+      <a href="/result"><button>Hasil</button></a>
+    </nav>
+  </header>
+
+  <main class="panel">
+    <div class="panel__header">
+      <h2>Prediksi Pola Angka</h2>
+      <p>Pilih nilai 2D untuk melihat kombinasi dan pola 3D, 4D, 5D, dan 6D.</p>
+    </div>
+
+    <div class="card card--panel">
+      <div class="form-group">
+        <label for="two-select">Pilih 2D</label>
+        <select id="two-select"></select>
+      </div>
+      <div class="grid-card" id="summary-cards"></div>
+      <div class="pattern-grid">
+        <div class="pattern-card">
+          <h3>3D Patterns</h3>
+          <div id="patterns-3d" class="pattern-list"></div>
+        </div>
+        <div class="pattern-card">
+          <h3>4D Patterns</h3>
+          <div id="patterns-4d" class="pattern-list"></div>
+        </div>
+        <div class="pattern-card">
+          <h3>5D Patterns</h3>
+          <div id="patterns-5d" class="pattern-list"></div>
+        </div>
+        <div class="pattern-card">
+          <h3>6D Patterns</h3>
+          <div id="patterns-6d" class="pattern-list"></div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

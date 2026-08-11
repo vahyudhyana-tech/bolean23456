@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hasil Prediksi</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar__brand">
+      <strong>BOLEAN</strong>
+      <span>Hasil</span>
+    </div>
+    <nav class="topbar__nav">
+      <a href="/prediksi"><button>Prediksi</button></a>
+      <a href="/referensi"><button>Referensi</button></a>
+      <a href="/result"><button>Hasil</button></a>
+    </nav>
+  </header>
+
+  <main class="panel panel--dark">
+    <div class="panel__header">
+      <h2>Masukkan Result</h2>
+      <p>Masukkan angka result lalu sistem akan otomatis mendeteksi 2D/3D/4D/5D/6D berdasarkan jumlah digit. Pilih metode referensi ketika menggunakan 2D/3D/4D.</p>
+    </div>
+
+    <div class="card card--panel">
+      <div class="form-group">
+        <label for="result-value">Nilai Result</label>
+        <input id="result-value" placeholder="Contoh: 123, 6583, atau 007" />
+      </div>
+
+      <div class="form-group" id="method-group" style="display:none;">
+        <label>Metode Referensi (2/3/4D)</label>
+        <div>
+          <label><input type="radio" name="method" value="kop" checked /> As Kop (Kepala/Ekor)</label>
+          <label style="margin-left:1rem"><input type="radio" name="method" value="2dd" /> 2DD (2D, Jalur, Sum, Reverse)</label>
+        </div>
+      </div>
+
+      <div style="margin-top:1rem; display:flex; gap:1rem; align-items:flex-start;">
+        <div style="flex:1;">
+          <button id="add-result" style="margin-right:0.5rem;">Tambah Result</button>
+          <button id="clear-results">Bersihkan</button>
+
+          <div class="card" style="margin-top:1rem;">
+            <div id="tab-group" style="display:none;gap:0.5rem;margin-bottom:0.75rem;">
+              <button id="tab-front" class="ref-tab">Front</button>
+              <button id="tab-2dd" class="ref-tab active">2DD</button>
+              <button id="tab-2d" class="ref-tab">2D</button>
+            </div>
+            <h3>Daftar Result</h3>
+            <div style="display:flex; gap:1rem; flex-wrap:wrap;">
+              <div style="flex:1;">
+                <ul id="results-list"></ul>
+              </div>
+              <div style="flex:2; min-width:320px;">
+                <div class="table-wrapper" style="max-height:420px;overflow:auto;">
+                  <table id="ref-table">
+                    <thead>
+                      <tr>
+                        <th>Result</th>
+                        <th>Kategori</th>
+                        <th>Jalur</th>
+                        <th>Sum</th>
+                        <th>Parity</th>
+                        <th>Reverse</th>
+                        <th>Kepala Besar/Kecil</th>
+                        <th>Ekor Besar/Kecil</th>
+                        <th>Kepala Genap/Ganjil</th>
+                        <th>Ekor Genap/Ganjil</th>
+                        <th>Kepala Prima</th>
+                        <th>Ekor Prima</th>
+                      </tr>
+                    </thead>
+                    <tbody id="ref-table-body">
+                      <tr><td colspan="11">Pilih result untuk melihat referensi terkait.</td></tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card" style="margin-top:1rem;">
+            <h3>Builder 2D (Pilih komponen)</h3>
+            <div id="builder" style="display:grid;grid-template-columns:repeat(3,1fr);gap:0.5rem;">
+              <label>Kategori
+                <select id="builder-kategori"><option value="">—</option></select>
+              </label>
+              <label>Jalur
+                <select id="builder-jalur"><option value="">—</option></select>
+              </label>
+              <label>Sum
+                <select id="builder-sum"><option value="">—</option></select>
+              </label>
+              <label>Parity
+                <select id="builder-parity"><option value="">—</option></select>
+              </label>
+              <label>Reverse
+                <select id="builder-reverse"><option value="">—</option></select>
+              </label>
+              <label>Kepala Besar/Kecil
+                <select id="builder-kepala-bk"><option value="">—</option></select>
+              </label>
+              <label>Ekor Besar/Kecil
+                <select id="builder-ekor-bk"><option value="">—</option></select>
+              </label>
+              <label>Kepala Genap/Ganjil
+                <select id="builder-kepala-gg"><option value="">—</option></select>
+              </label>
+              <label>Ekor Genap/Ganjil
+                <select id="builder-ekor-gg"><option value="">—</option></select>
+              </label>
+              <label>Kepala Prima
+                <select id="builder-kepala-prima"><option value="">—</option></select>
+              </label>
+              <label>Ekor Prima
+                <select id="builder-ekor-prima"><option value="">—</option></select>
+              </label>
+            </div>
+            <div style="margin-top:0.75rem;">
+              <button id="builder-show">Tampilkan Kandidat 2D</button>
+              <div id="builder-results" style="margin-top:0.5rem;display:flex;gap:0.5rem;flex-wrap:wrap;"></div>
+              <div id="builder2d-output" class="builder-output" style="margin-top:0.75rem;min-height:1.5rem;color:#fff;font-weight:600;"></div>
+            </div>
+          </div>
+          <div class="card" style="margin-top:1rem;">
+            <h3>Builder 2DD (Pilih komponen)</h3>
+            <div id="builder2dd" style="display:grid;grid-template-columns:repeat(3,1fr);gap:0.5rem;">
+              <label>Kategori
+                <select id="builder2dd-kategori"><option value="">—</option></select>
+              </label>
+              <label>Jalur
+                <select id="builder2dd-jalur"><option value="">—</option></select>
+              </label>
+              <label>Sum
+                <select id="builder2dd-sum"><option value="">—</option></select>
+              </label>
+              <label>Parity
+                <select id="builder2dd-parity"><option value="">—</option></select>
+              </label>
+              <label>Reverse
+                <select id="builder2dd-reverse"><option value="">—</option></select>
+              </label>
+              <label>Kepala Besar/Kecil
+                <select id="builder2dd-kepala-bk"><option value="">—</option></select>
+              </label>
+              <label>Ekor Besar/Kecil
+                <select id="builder2dd-ekor-bk"><option value="">—</option></select>
+              </label>
+              <label>Kepala Genap/Ganjil
+                <select id="builder2dd-kepala-gg"><option value="">—</option></select>
+              </label>
+              <label>Ekor Genap/Ganjil
+                <select id="builder2dd-ekor-gg"><option value="">—</option></select>
+              </label>
+              <label>Kepala Prima
+                <select id="builder2dd-kepala-prima"><option value="">—</option></select>
+              </label>
+              <label>Ekor Prima
+                <select id="builder2dd-ekor-prima"><option value="">—</option></select>
+              </label>
+            </div>
+            <div style="margin-top:0.75rem;">
+              <button id="builder2dd-show">Tampilkan Kandidat 2DD</button>
+              <div id="builder2dd-results" style="margin-top:0.5rem;display:flex;gap:0.5rem;flex-wrap:wrap;"></div>
+              <div id="builder2dd-output" class="builder-output" style="margin-top:0.75rem;min-height:1.5rem;color:#fff;font-weight:600;"></div>
+            </div>
+          </div>
+          <div class="card" style="margin-top:1rem;">
+            <h3>Builder front (Pilih komponen)</h3>
+            <div id="builderfront" style="display:grid;grid-template-columns:repeat(3,1fr);gap:0.5rem;">
+              <label>Kategori
+                <select id="builderfront-kategori"><option value="">—</option></select>
+              </label>
+              <label>Jalur
+                <select id="builderfront-jalur"><option value="">—</option></select>
+              </label>
+              <label>Sum
+                <select id="builderfront-sum"><option value="">—</option></select>
+              </label>
+              <label>Parity
+                <select id="builderfront-parity"><option value="">—</option></select>
+              </label>
+              <label>Reverse
+                <select id="builderfront-reverse"><option value="">—</option></select>
+              </label>
+              <label>Kepala Besar/Kecil
+                <select id="builderfront-kepala-bk"><option value="">—</option></select>
+              </label>
+              <label>Ekor Besar/Kecil
+                <select id="builderfront-ekor-bk"><option value="">—</option></select>
+              </label>
+              <label>Kepala Genap/Ganjil
+                <select id="builderfront-kepala-gg"><option value="">—</option></select>
+              </label>
+              <label>Ekor Genap/Ganjil
+                <select id="builderfront-ekor-gg"><option value="">—</option></select>
+              </label>
+              <label>Kepala Prima
+                <select id="builderfront-kepala-prima"><option value="">—</option></select>
+              </label>
+              <label>Ekor Prima
+                <select id="builderfront-ekor-prima"><option value="">—</option></select>
+              </label>
+            </div>
+            <div style="margin-top:0.75rem;">
+              <button id="builderfront-show">Tampilkan Kandidat front</button>
+              <div id="builderfront-results" style="margin-top:0.5rem;display:flex;gap:0.5rem;flex-wrap:wrap;"></div>
+              <div id="builderfront-output" class="builder-output" style="margin-top:0.75rem;min-height:1.5rem;color:#fff;font-weight:600;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,2402 @@
+{
+  "01": {
+    "3D_patterns": [
+      "X01",
+      "01X"
+    ],
+    "4D_patterns": [
+      "XX01",
+      "X01X",
+      "01XX"
+    ],
+    "5D_patterns": [
+      "XXX01",
+      "XX01X",
+      "X01XX",
+      "01XXX"
+    ],
+    "6D_patterns": [
+      "XXXX01",
+      "XXX01X",
+      "XX01XX",
+      "X01XXX",
+      "01XXXX"
+    ]
+  },
+  "02": {
+    "3D_patterns": [
+      "X02",
+      "02X"
+    ],
+    "4D_patterns": [
+      "XX02",
+      "X02X",
+      "02XX"
+    ],
+    "5D_patterns": [
+      "XXX02",
+      "XX02X",
+      "X02XX",
+      "02XXX"
+    ],
+    "6D_patterns": [
+      "XXXX02",
+      "XXX02X",
+      "XX02XX",
+      "X02XXX",
+      "02XXXX"
+    ]
+  },
+  "03": {
+    "3D_patterns": [
+      "X03",
+      "03X"
+    ],
+    "4D_patterns": [
+      "XX03",
+      "X03X",
+      "03XX"
+    ],
+    "5D_patterns": [
+      "XXX03",
+      "XX03X",
+      "X03XX",
+      "03XXX"
+    ],
+    "6D_patterns": [
+      "XXXX03",
+      "XXX03X",
+      "XX03XX",
+      "X03XXX",
+      "03XXXX"
+    ]
+  },
+  "04": {
+    "3D_patterns": [
+      "X04",
+      "04X"
+    ],
+    "4D_patterns": [
+      "XX04",
+      "X04X",
+      "04XX"
+    ],
+    "5D_patterns": [
+      "XXX04",
+      "XX04X",
+      "X04XX",
+      "04XXX"
+    ],
+    "6D_patterns": [
+      "XXXX04",
+      "XXX04X",
+      "XX04XX",
+      "X04XXX",
+      "04XXXX"
+    ]
+  },
+  "05": {
+    "3D_patterns": [
+      "X05",
+      "05X"
+    ],
+    "4D_patterns": [
+      "XX05",
+      "X05X",
+      "05XX"
+    ],
+    "5D_patterns": [
+      "XXX05",
+      "XX05X",
+      "X05XX",
+      "05XXX"
+    ],
+    "6D_patterns": [
+      "XXXX05",
+      "XXX05X",
+      "XX05XX",
+      "X05XXX",
+      "05XXXX"
+    ]
+  },
+  "06": {
+    "3D_patterns": [
+      "X06",
+      "06X"
+    ],
+    "4D_patterns": [
+      "XX06",
+      "X06X",
+      "06XX"
+    ],
+    "5D_patterns": [
+      "XXX06",
+      "XX06X",
+      "X06XX",
+      "06XXX"
+    ],
+    "6D_patterns": [
+      "XXXX06",
+      "XXX06X",
+      "XX06XX",
+      "X06XXX",
+      "06XXXX"
+    ]
+  },
+  "07": {
+    "3D_patterns": [
+      "X07",
+      "07X"
+    ],
+    "4D_patterns": [
+      "XX07",
+      "X07X",
+      "07XX"
+    ],
+    "5D_patterns": [
+      "XXX07",
+      "XX07X",
+      "X07XX",
+      "07XXX"
+    ],
+    "6D_patterns": [
+      "XXXX07",
+      "XXX07X",
+      "XX07XX",
+      "X07XXX",
+      "07XXXX"
+    ]
+  },
+  "08": {
+    "3D_patterns": [
+      "X08",
+      "08X"
+    ],
+    "4D_patterns": [
+      "XX08",
+      "X08X",
+      "08XX"
+    ],
+    "5D_patterns": [
+      "XXX08",
+      "XX08X",
+      "X08XX",
+      "08XXX"
+    ],
+    "6D_patterns": [
+      "XXXX08",
+      "XXX08X",
+      "XX08XX",
+      "X08XXX",
+      "08XXXX"
+    ]
+  },
+  "09": {
+    "3D_patterns": [
+      "X09",
+      "09X"
+    ],
+    "4D_patterns": [
+      "XX09",
+      "X09X",
+      "09XX"
+    ],
+    "5D_patterns": [
+      "XXX09",
+      "XX09X",
+      "X09XX",
+      "09XXX"
+    ],
+    "6D_patterns": [
+      "XXXX09",
+      "XXX09X",
+      "XX09XX",
+      "X09XXX",
+      "09XXXX"
+    ]
+  },
+  "10": {
+    "3D_patterns": [
+      "X10",
+      "10X"
+    ],
+    "4D_patterns": [
+      "XX10",
+      "X10X",
+      "10XX"
+    ],
+    "5D_patterns": [
+      "XXX10",
+      "XX10X",
+      "X10XX",
+      "10XXX"
+    ],
+    "6D_patterns": [
+      "XXXX10",
+      "XXX10X",
+      "XX10XX",
+      "X10XXX",
+      "10XXXX"
+    ]
+  },
+  "11": {
+    "3D_patterns": [
+      "X11",
+      "11X"
+    ],
+    "4D_patterns": [
+      "XX11",
+      "X11X",
+      "11XX"
+    ],
+    "5D_patterns": [
+      "XXX11",
+      "XX11X",
+      "X11XX",
+      "11XXX"
+    ],
+    "6D_patterns": [
+      "XXXX11",
+      "XXX11X",
+      "XX11XX",
+      "X11XXX",
+      "11XXXX"
+    ]
+  },
+  "12": {
+    "3D_patterns": [
+      "X12",
+      "12X"
+    ],
+    "4D_patterns": [
+      "XX12",
+      "X12X",
+      "12XX"
+    ],
+    "5D_patterns": [
+      "XXX12",
+      "XX12X",
+      "X12XX",
+      "12XXX"
+    ],
+    "6D_patterns": [
+      "XXXX12",
+      "XXX12X",
+      "XX12XX",
+      "X12XXX",
+      "12XXXX"
+    ]
+  },
+  "13": {
+    "3D_patterns": [
+      "X13",
+      "13X"
+    ],
+    "4D_patterns": [
+      "XX13",
+      "X13X",
+      "13XX"
+    ],
+    "5D_patterns": [
+      "XXX13",
+      "XX13X",
+      "X13XX",
+      "13XXX"
+    ],
+    "6D_patterns": [
+      "XXXX13",
+      "XXX13X",
+      "XX13XX",
+      "X13XXX",
+      "13XXXX"
+    ]
+  },
+  "14": {
+    "3D_patterns": [
+      "X14",
+      "14X"
+    ],
+    "4D_patterns": [
+      "XX14",
+      "X14X",
+      "14XX"
+    ],
+    "5D_patterns": [
+      "XXX14",
+      "XX14X",
+      "X14XX",
+      "14XXX"
+    ],
+    "6D_patterns": [
+      "XXXX14",
+      "XXX14X",
+      "XX14XX",
+      "X14XXX",
+      "14XXXX"
+    ]
+  },
+  "15": {
+    "3D_patterns": [
+      "X15",
+      "15X"
+    ],
+    "4D_patterns": [
+      "XX15",
+      "X15X",
+      "15XX"
+    ],
+    "5D_patterns": [
+      "XXX15",
+      "XX15X",
+      "X15XX",
+      "15XXX"
+    ],
+    "6D_patterns": [
+      "XXXX15",
+      "XXX15X",
+      "XX15XX",
+      "X15XXX",
+      "15XXXX"
+    ]
+  },
+  "16": {
+    "3D_patterns": [
+      "X16",
+      "16X"
+    ],
+    "4D_patterns": [
+      "XX16",
+      "X16X",
+      "16XX"
+    ],
+    "5D_patterns": [
+      "XXX16",
+      "XX16X",
+      "X16XX",
+      "16XXX"
+    ],
+    "6D_patterns": [
+      "XXXX16",
+      "XXX16X",
+      "XX16XX",
+      "X16XXX",
+      "16XXXX"
+    ]
+  },
+  "17": {
+    "3D_patterns": [
+      "X17",
+      "17X"
+    ],
+    "4D_patterns": [
+      "XX17",
+      "X17X",
+      "17XX"
+    ],
+    "5D_patterns": [
+      "XXX17",
+      "XX17X",
+      "X17XX",
+      "17XXX"
+    ],
+    "6D_patterns": [
+      "XXXX17",
+      "XXX17X",
+      "XX17XX",
+      "X17XXX",
+      "17XXXX"
+    ]
+  },
+  "18": {
+    "3D_patterns": [
+      "X18",
+      "18X"
+    ],
+    "4D_patterns": [
+      "XX18",
+      "X18X",
+      "18XX"
+    ],
+    "5D_patterns": [
+      "XXX18",
+      "XX18X",
+      "X18XX",
+      "18XXX"
+    ],
+    "6D_patterns": [
+      "XXXX18",
+      "XXX18X",
+      "XX18XX",
+      "X18XXX",
+      "18XXXX"
+    ]
+  },
+  "19": {
+    "3D_patterns": [
+      "X19",
+      "19X"
+    ],
+    "4D_patterns": [
+      "XX19",
+      "X19X",
+      "19XX"
+    ],
+    "5D_patterns": [
+      "XXX19",
+      "XX19X",
+      "X19XX",
+      "19XXX"
+    ],
+    "6D_patterns": [
+      "XXXX19",
+      "XXX19X",
+      "XX19XX",
+      "X19XXX",
+      "19XXXX"
+    ]
+  },
+  "20": {
+    "3D_patterns": [
+      "X20",
+      "20X"
+    ],
+    "4D_patterns": [
+      "XX20",
+      "X20X",
+      "20XX"
+    ],
+    "5D_patterns": [
+      "XXX20",
+      "XX20X",
+      "X20XX",
+      "20XXX"
+    ],
+    "6D_patterns": [
+      "XXXX20",
+      "XXX20X",
+      "XX20XX",
+      "X20XXX",
+      "20XXXX"
+    ]
+  },
+  "21": {
+    "3D_patterns": [
+      "X21",
+      "21X"
+    ],
+    "4D_patterns": [
+      "XX21",
+      "X21X",
+      "21XX"
+    ],
+    "5D_patterns": [
+      "XXX21",
+      "XX21X",
+      "X21XX",
+      "21XXX"
+    ],
+    "6D_patterns": [
+      "XXXX21",
+      "XXX21X",
+      "XX21XX",
+      "X21XXX",
+      "21XXXX"
+    ]
+  },
+  "22": {
+    "3D_patterns": [
+      "X22",
+      "22X"
+    ],
+    "4D_patterns": [
+      "XX22",
+      "X22X",
+      "22XX"
+    ],
+    "5D_patterns": [
+      "XXX22",
+      "XX22X",
+      "X22XX",
+      "22XXX"
+    ],
+    "6D_patterns": [
+      "XXXX22",
+      "XXX22X",
+      "XX22XX",
+      "X22XXX",
+      "22XXXX"
+    ]
+  },
+  "23": {
+    "3D_patterns": [
+      "X23",
+      "23X"
+    ],
+    "4D_patterns": [
+      "XX23",
+      "X23X",
+      "23XX"
+    ],
+    "5D_patterns": [
+      "XXX23",
+      "XX23X",
+      "X23XX",
+      "23XXX"
+    ],
+    "6D_patterns": [
+      "XXXX23",
+      "XXX23X",
+      "XX23XX",
+      "X23XXX",
+      "23XXXX"
+    ]
+  },
+  "24": {
+    "3D_patterns": [
+      "X24",
+      "24X"
+    ],
+    "4D_patterns": [
+      "XX24",
+      "X24X",
+      "24XX"
+    ],
+    "5D_patterns": [
+      "XXX24",
+      "XX24X",
+      "X24XX",
+      "24XXX"
+    ],
+    "6D_patterns": [
+      "XXXX24",
+      "XXX24X",
+      "XX24XX",
+      "X24XXX",
+      "24XXXX"
+    ]
+  },
+  "25": {
+    "3D_patterns": [
+      "X25",
+      "25X"
+    ],
+    "4D_patterns": [
+      "XX25",
+      "X25X",
+      "25XX"
+    ],
+    "5D_patterns": [
+      "XXX25",
+      "XX25X",
+      "X25XX",
+      "25XXX"
+    ],
+    "6D_patterns": [
+      "XXXX25",
+      "XXX25X",
+      "XX25XX",
+      "X25XXX",
+      "25XXXX"
+    ]
+  },
+  "26": {
+    "3D_patterns": [
+      "X26",
+      "26X"
+    ],
+    "4D_patterns": [
+      "XX26",
+      "X26X",
+      "26XX"
+    ],
+    "5D_patterns": [
+      "XXX26",
+      "XX26X",
+      "X26XX",
+      "26XXX"
+    ],
+    "6D_patterns": [
+      "XXXX26",
+      "XXX26X",
+      "XX26XX",
+      "X26XXX",
+      "26XXXX"
+    ]
+  },
+  "27": {
+    "3D_patterns": [
+      "X27",
+      "27X"
+    ],
+    "4D_patterns": [
+      "XX27",
+      "X27X",
+      "27XX"
+    ],
+    "5D_patterns": [
+      "XXX27",
+      "XX27X",
+      "X27XX",
+      "27XXX"
+    ],
+    "6D_patterns": [
+      "XXXX27",
+      "XXX27X",
+      "XX27XX",
+      "X27XXX",
+      "27XXXX"
+    ]
+  },
+  "28": {
+    "3D_patterns": [
+      "X28",
+      "28X"
+    ],
+    "4D_patterns": [
+      "XX28",
+      "X28X",
+      "28XX"
+    ],
+    "5D_patterns": [
+      "XXX28",
+      "XX28X",
+      "X28XX",
+      "28XXX"
+    ],
+    "6D_patterns": [
+      "XXXX28",
+      "XXX28X",
+      "XX28XX",
+      "X28XXX",
+      "28XXXX"
+    ]
+  },
+  "29": {
+    "3D_patterns": [
+      "X29",
+      "29X"
+    ],
+    "4D_patterns": [
+      "XX29",
+      "X29X",
+      "29XX"
+    ],
+    "5D_patterns": [
+      "XXX29",
+      "XX29X",
+      "X29XX",
+      "29XXX"
+    ],
+    "6D_patterns": [
+      "XXXX29",
+      "XXX29X",
+      "XX29XX",
+      "X29XXX",
+      "29XXXX"
+    ]
+  },
+  "30": {
+    "3D_patterns": [
+      "X30",
+      "30X"
+    ],
+    "4D_patterns": [
+      "XX30",
+      "X30X",
+      "30XX"
+    ],
+    "5D_patterns": [
+      "XXX30",
+      "XX30X",
+      "X30XX",
+      "30XXX"
+    ],
+    "6D_patterns": [
+      "XXXX30",
+      "XXX30X",
+      "XX30XX",
+      "X30XXX",
+      "30XXXX"
+    ]
+  },
+  "31": {
+    "3D_patterns": [
+      "X31",
+      "31X"
+    ],
+    "4D_patterns": [
+      "XX31",
+      "X31X",
+      "31XX"
+    ],
+    "5D_patterns": [
+      "XXX31",
+      "XX31X",
+      "X31XX",
+      "31XXX"
+    ],
+    "6D_patterns": [
+      "XXXX31",
+      "XXX31X",
+      "XX31XX",
+      "X31XXX",
+      "31XXXX"
+    ]
+  },
+  "32": {
+    "3D_patterns": [
+      "X32",
+      "32X"
+    ],
+    "4D_patterns": [
+      "XX32",
+      "X32X",
+      "32XX"
+    ],
+    "5D_patterns": [
+      "XXX32",
+      "XX32X",
+      "X32XX",
+      "32XXX"
+    ],
+    "6D_patterns": [
+      "XXXX32",
+      "XXX32X",
+      "XX32XX",
+      "X32XXX",
+      "32XXXX"
+    ]
+  },
+  "33": {
+    "3D_patterns": [
+      "X33",
+      "33X"
+    ],
+    "4D_patterns": [
+      "XX33",
+      "X33X",
+      "33XX"
+    ],
+    "5D_patterns": [
+      "XXX33",
+      "XX33X",
+      "X33XX",
+      "33XXX"
+    ],
+    "6D_patterns": [
+      "XXXX33",
+      "XXX33X",
+      "XX33XX",
+      "X33XXX",
+      "33XXXX"
+    ]
+  },
+  "34": {
+    "3D_patterns": [
+      "X34",
+      "34X"
+    ],
+    "4D_patterns": [
+      "XX34",
+      "X34X",
+      "34XX"
+    ],
+    "5D_patterns": [
+      "XXX34",
+      "XX34X",
+      "X34XX",
+      "34XXX"
+    ],
+    "6D_patterns": [
+      "XXXX34",
+      "XXX34X",
+      "XX34XX",
+      "X34XXX",
+      "34XXXX"
+    ]
+  },
+  "35": {
+    "3D_patterns": [
+      "X35",
+      "35X"
+    ],
+    "4D_patterns": [
+      "XX35",
+      "X35X",
+      "35XX"
+    ],
+    "5D_patterns": [
+      "XXX35",
+      "XX35X",
+      "X35XX",
+      "35XXX"
+    ],
+    "6D_patterns": [
+      "XXXX35",
+      "XXX35X",
+      "XX35XX",
+      "X35XXX",
+      "35XXXX"
+    ]
+  },
+  "36": {
+    "3D_patterns": [
+      "X36",
+      "36X"
+    ],
+    "4D_patterns": [
+      "XX36",
+      "X36X",
+      "36XX"
+    ],
+    "5D_patterns": [
+      "XXX36",
+      "XX36X",
+      "X36XX",
+      "36XXX"
+    ],
+    "6D_patterns": [
+      "XXXX36",
+      "XXX36X",
+      "XX36XX",
+      "X36XXX",
+      "36XXXX"
+    ]
+  },
+  "37": {
+    "3D_patterns": [
+      "X37",
+      "37X"
+    ],
+    "4D_patterns": [
+      "XX37",
+      "X37X",
+      "37XX"
+    ],
+    "5D_patterns": [
+      "XXX37",
+      "XX37X",
+      "X37XX",
+      "37XXX"
+    ],
+    "6D_patterns": [
+      "XXXX37",
+      "XXX37X",
+      "XX37XX",
+      "X37XXX",
+      "37XXXX"
+    ]
+  },
+  "38": {
+    "3D_patterns": [
+      "X38",
+      "38X"
+    ],
+    "4D_patterns": [
+      "XX38",
+      "X38X",
+      "38XX"
+    ],
+    "5D_patterns": [
+      "XXX38",
+      "XX38X",
+      "X38XX",
+      "38XXX"
+    ],
+    "6D_patterns": [
+      "XXXX38",
+      "XXX38X",
+      "XX38XX",
+      "X38XXX",
+      "38XXXX"
+    ]
+  },
+  "39": {
+    "3D_patterns": [
+      "X39",
+      "39X"
+    ],
+    "4D_patterns": [
+      "XX39",
+      "X39X",
+      "39XX"
+    ],
+    "5D_patterns": [
+      "XXX39",
+      "XX39X",
+      "X39XX",
+      "39XXX"
+    ],
+    "6D_patterns": [
+      "XXXX39",
+      "XXX39X",
+      "XX39XX",
+      "X39XXX",
+      "39XXXX"
+    ]
+  },
+  "40": {
+    "3D_patterns": [
+      "X40",
+      "40X"
+    ],
+    "4D_patterns": [
+      "XX40",
+      "X40X",
+      "40XX"
+    ],
+    "5D_patterns": [
+      "XXX40",
+      "XX40X",
+      "X40XX",
+      "40XXX"
+    ],
+    "6D_patterns": [
+      "XXXX40",
+      "XXX40X",
+      "XX40XX",
+      "X40XXX",
+      "40XXXX"
+    ]
+  },
+  "41": {
+    "3D_patterns": [
+      "X41",
+      "41X"
+    ],
+    "4D_patterns": [
+      "XX41",
+      "X41X",
+      "41XX"
+    ],
+    "5D_patterns": [
+      "XXX41",
+      "XX41X",
+      "X41XX",
+      "41XXX"
+    ],
+    "6D_patterns": [
+      "XXXX41",
+      "XXX41X",
+      "XX41XX",
+      "X41XXX",
+      "41XXXX"
+    ]
+  },
+  "42": {
+    "3D_patterns": [
+      "X42",
+      "42X"
+    ],
+    "4D_patterns": [
+      "XX42",
+      "X42X",
+      "42XX"
+    ],
+    "5D_patterns": [
+      "XXX42",
+      "XX42X",
+      "X42XX",
+      "42XXX"
+    ],
+    "6D_patterns": [
+      "XXXX42",
+      "XXX42X",
+      "XX42XX",
+      "X42XXX",
+      "42XXXX"
+    ]
+  },
+  "43": {
+    "3D_patterns": [
+      "X43",
+      "43X"
+    ],
+    "4D_patterns": [
+      "XX43",
+      "X43X",
+      "43XX"
+    ],
+    "5D_patterns": [
+      "XXX43",
+      "XX43X",
+      "X43XX",
+      "43XXX"
+    ],
+    "6D_patterns": [
+      "XXXX43",
+      "XXX43X",
+      "XX43XX",
+      "X43XXX",
+      "43XXXX"
+    ]
+  },
+  "44": {
+    "3D_patterns": [
+      "X44",
+      "44X"
+    ],
+    "4D_patterns": [
+      "XX44",
+      "X44X",
+      "44XX"
+    ],
+    "5D_patterns": [
+      "XXX44",
+      "XX44X",
+      "X44XX",
+      "44XXX"
+    ],
+    "6D_patterns": [
+      "XXXX44",
+      "XXX44X",
+      "XX44XX",
+      "X44XXX",
+      "44XXXX"
+    ]
+  },
+  "45": {
+    "3D_patterns": [
+      "X45",
+      "45X"
+    ],
+    "4D_patterns": [
+      "XX45",
+      "X45X",
+      "45XX"
+    ],
+    "5D_patterns": [
+      "XXX45",
+      "XX45X",
+      "X45XX",
+      "45XXX"
+    ],
+    "6D_patterns": [
+      "XXXX45",
+      "XXX45X",
+      "XX45XX",
+      "X45XXX",
+      "45XXXX"
+    ]
+  },
+  "46": {
+    "3D_patterns": [
+      "X46",
+      "46X"
+    ],
+    "4D_patterns": [
+      "XX46",
+      "X46X",
+      "46XX"
+    ],
+    "5D_patterns": [
+      "XXX46",
+      "XX46X",
+      "X46XX",
+      "46XXX"
+    ],
+    "6D_patterns": [
+      "XXXX46",
+      "XXX46X",
+      "XX46XX",
+      "X46XXX",
+      "46XXXX"
+    ]
+  },
+  "47": {
+    "3D_patterns": [
+      "X47",
+      "47X"
+    ],
+    "4D_patterns": [
+      "XX47",
+      "X47X",
+      "47XX"
+    ],
+    "5D_patterns": [
+      "XXX47",
+      "XX47X",
+      "X47XX",
+      "47XXX"
+    ],
+    "6D_patterns": [
+      "XXXX47",
+      "XXX47X",
+      "XX47XX",
+      "X47XXX",
+      "47XXXX"
+    ]
+  },
+  "48": {
+    "3D_patterns": [
+      "X48",
+      "48X"
+    ],
+    "4D_patterns": [
+      "XX48",
+      "X48X",
+      "48XX"
+    ],
+    "5D_patterns": [
+      "XXX48",
+      "XX48X",
+      "X48XX",
+      "48XXX"
+    ],
+    "6D_patterns": [
+      "XXXX48",
+      "XXX48X",
+      "XX48XX",
+      "X48XXX",
+      "48XXXX"
+    ]
+  },
+  "49": {
+    "3D_patterns": [
+      "X49",
+      "49X"
+    ],
+    "4D_patterns": [
+      "XX49",
+      "X49X",
+      "49XX"
+    ],
+    "5D_patterns": [
+      "XXX49",
+      "XX49X",
+      "X49XX",
+      "49XXX"
+    ],
+    "6D_patterns": [
+      "XXXX49",
+      "XXX49X",
+      "XX49XX",
+      "X49XXX",
+      "49XXXX"
+    ]
+  },
+  "50": {
+    "3D_patterns": [
+      "X50",
+      "50X"
+    ],
+    "4D_patterns": [
+      "XX50",
+      "X50X",
+      "50XX"
+    ],
+    "5D_patterns": [
+      "XXX50",
+      "XX50X",
+      "X50XX",
+      "50XXX"
+    ],
+    "6D_patterns": [
+      "XXXX50",
+      "XXX50X",
+      "XX50XX",
+      "X50XXX",
+      "50XXXX"
+    ]
+  },
+  "51": {
+    "3D_patterns": [
+      "X51",
+      "51X"
+    ],
+    "4D_patterns": [
+      "XX51",
+      "X51X",
+      "51XX"
+    ],
+    "5D_patterns": [
+      "XXX51",
+      "XX51X",
+      "X51XX",
+      "51XXX"
+    ],
+    "6D_patterns": [
+      "XXXX51",
+      "XXX51X",
+      "XX51XX",
+      "X51XXX",
+      "51XXXX"
+    ]
+  },
+  "52": {
+    "3D_patterns": [
+      "X52",
+      "52X"
+    ],
+    "4D_patterns": [
+      "XX52",
+      "X52X",
+      "52XX"
+    ],
+    "5D_patterns": [
+      "XXX52",
+      "XX52X",
+      "X52XX",
+      "52XXX"
+    ],
+    "6D_patterns": [
+      "XXXX52",
+      "XXX52X",
+      "XX52XX",
+      "X52XXX",
+      "52XXXX"
+    ]
+  },
+  "53": {
+    "3D_patterns": [
+      "X53",
+      "53X"
+    ],
+    "4D_patterns": [
+      "XX53",
+      "X53X",
+      "53XX"
+    ],
+    "5D_patterns": [
+      "XXX53",
+      "XX53X",
+      "X53XX",
+      "53XXX"
+    ],
+    "6D_patterns": [
+      "XXXX53",
+      "XXX53X",
+      "XX53XX",
+      "X53XXX",
+      "53XXXX"
+    ]
+  },
+  "54": {
+    "3D_patterns": [
+      "X54",
+      "54X"
+    ],
+    "4D_patterns": [
+      "XX54",
+      "X54X",
+      "54XX"
+    ],
+    "5D_patterns": [
+      "XXX54",
+      "XX54X",
+      "X54XX",
+      "54XXX"
+    ],
+    "6D_patterns": [
+      "XXXX54",
+      "XXX54X",
+      "XX54XX",
+      "X54XXX",
+      "54XXXX"
+    ]
+  },
+  "55": {
+    "3D_patterns": [
+      "X55",
+      "55X"
+    ],
+    "4D_patterns": [
+      "XX55",
+      "X55X",
+      "55XX"
+    ],
+    "5D_patterns": [
+      "XXX55",
+      "XX55X",
+      "X55XX",
+      "55XXX"
+    ],
+    "6D_patterns": [
+      "XXXX55",
+      "XXX55X",
+      "XX55XX",
+      "X55XXX",
+      "55XXXX"
+    ]
+  },
+  "56": {
+    "3D_patterns": [
+      "X56",
+      "56X"
+    ],
+    "4D_patterns": [
+      "XX56",
+      "X56X",
+      "56XX"
+    ],
+    "5D_patterns": [
+      "XXX56",
+      "XX56X",
+      "X56XX",
+      "56XXX"
+    ],
+    "6D_patterns": [
+      "XXXX56",
+      "XXX56X",
+      "XX56XX",
+      "X56XXX",
+      "56XXXX"
+    ]
+  },
+  "57": {
+    "3D_patterns": [
+      "X57",
+      "57X"
+    ],
+    "4D_patterns": [
+      "XX57",
+      "X57X",
+      "57XX"
+    ],
+    "5D_patterns": [
+      "XXX57",
+      "XX57X",
+      "X57XX",
+      "57XXX"
+    ],
+    "6D_patterns": [
+      "XXXX57",
+      "XXX57X",
+      "XX57XX",
+      "X57XXX",
+      "57XXXX"
+    ]
+  },
+  "58": {
+    "3D_patterns": [
+      "X58",
+      "58X"
+    ],
+    "4D_patterns": [
+      "XX58",
+      "X58X",
+      "58XX"
+    ],
+    "5D_patterns": [
+      "XXX58",
+      "XX58X",
+      "X58XX",
+      "58XXX"
+    ],
+    "6D_patterns": [
+      "XXXX58",
+      "XXX58X",
+      "XX58XX",
+      "X58XXX",
+      "58XXXX"
+    ]
+  },
+  "59": {
+    "3D_patterns": [
+      "X59",
+      "59X"
+    ],
+    "4D_patterns": [
+      "XX59",
+      "X59X",
+      "59XX"
+    ],
+    "5D_patterns": [
+      "XXX59",
+      "XX59X",
+      "X59XX",
+      "59XXX"
+    ],
+    "6D_patterns": [
+      "XXXX59",
+      "XXX59X",
+      "XX59XX",
+      "X59XXX",
+      "59XXXX"
+    ]
+  },
+  "60": {
+    "3D_patterns": [
+      "X60",
+      "60X"
+    ],
+    "4D_patterns": [
+      "XX60",
+      "X60X",
+      "60XX"
+    ],
+    "5D_patterns": [
+      "XXX60",
+      "XX60X",
+      "X60XX",
+      "60XXX"
+    ],
+    "6D_patterns": [
+      "XXXX60",
+      "XXX60X",
+      "XX60XX",
+      "X60XXX",
+      "60XXXX"
+    ]
+  },
+  "61": {
+    "3D_patterns": [
+      "X61",
+      "61X"
+    ],
+    "4D_patterns": [
+      "XX61",
+      "X61X",
+      "61XX"
+    ],
+    "5D_patterns": [
+      "XXX61",
+      "XX61X",
+      "X61XX",
+      "61XXX"
+    ],
+    "6D_patterns": [
+      "XXXX61",
+      "XXX61X",
+      "XX61XX",
+      "X61XXX",
+      "61XXXX"
+    ]
+  },
+  "62": {
+    "3D_patterns": [
+      "X62",
+      "62X"
+    ],
+    "4D_patterns": [
+      "XX62",
+      "X62X",
+      "62XX"
+    ],
+    "5D_patterns": [
+      "XXX62",
+      "XX62X",
+      "X62XX",
+      "62XXX"
+    ],
+    "6D_patterns": [
+      "XXXX62",
+      "XXX62X",
+      "XX62XX",
+      "X62XXX",
+      "62XXXX"
+    ]
+  },
+  "63": {
+    "3D_patterns": [
+      "X63",
+      "63X"
+    ],
+    "4D_patterns": [
+      "XX63",
+      "X63X",
+      "63XX"
+    ],
+    "5D_patterns": [
+      "XXX63",
+      "XX63X",
+      "X63XX",
+      "63XXX"
+    ],
+    "6D_patterns": [
+      "XXXX63",
+      "XXX63X",
+      "XX63XX",
+      "X63XXX",
+      "63XXXX"
+    ]
+  },
+  "64": {
+    "3D_patterns": [
+      "X64",
+      "64X"
+    ],
+    "4D_patterns": [
+      "XX64",
+      "X64X",
+      "64XX"
+    ],
+    "5D_patterns": [
+      "XXX64",
+      "XX64X",
+      "X64XX",
+      "64XXX"
+    ],
+    "6D_patterns": [
+      "XXXX64",
+      "XXX64X",
+      "XX64XX",
+      "X64XXX",
+      "64XXXX"
+    ]
+  },
+  "65": {
+    "3D_patterns": [
+      "X65",
+      "65X"
+    ],
+    "4D_patterns": [
+      "XX65",
+      "X65X",
+      "65XX"
+    ],
+    "5D_patterns": [
+      "XXX65",
+      "XX65X",
+      "X65XX",
+      "65XXX"
+    ],
+    "6D_patterns": [
+      "XXXX65",
+      "XXX65X",
+      "XX65XX",
+      "X65XXX",
+      "65XXXX"
+    ]
+  },
+  "66": {
+    "3D_patterns": [
+      "X66",
+      "66X"
+    ],
+    "4D_patterns": [
+      "XX66",
+      "X66X",
+      "66XX"
+    ],
+    "5D_patterns": [
+      "XXX66",
+      "XX66X",
+      "X66XX",
+      "66XXX"
+    ],
+    "6D_patterns": [
+      "XXXX66",
+      "XXX66X",
+      "XX66XX",
+      "X66XXX",
+      "66XXXX"
+    ]
+  },
+  "67": {
+    "3D_patterns": [
+      "X67",
+      "67X"
+    ],
+    "4D_patterns": [
+      "XX67",
+      "X67X",
+      "67XX"
+    ],
+    "5D_patterns": [
+      "XXX67",
+      "XX67X",
+      "X67XX",
+      "67XXX"
+    ],
+    "6D_patterns": [
+      "XXXX67",
+      "XXX67X",
+      "XX67XX",
+      "X67XXX",
+      "67XXXX"
+    ]
+  },
+  "68": {
+    "3D_patterns": [
+      "X68",
+      "68X"
+    ],
+    "4D_patterns": [
+      "XX68",
+      "X68X",
+      "68XX"
+    ],
+    "5D_patterns": [
+      "XXX68",
+      "XX68X",
+      "X68XX",
+      "68XXX"
+    ],
+    "6D_patterns": [
+      "XXXX68",
+      "XXX68X",
+      "XX68XX",
+      "X68XXX",
+      "68XXXX"
+    ]
+  },
+  "69": {
+    "3D_patterns": [
+      "X69",
+      "69X"
+    ],
+    "4D_patterns": [
+      "XX69",
+      "X69X",
+      "69XX"
+    ],
+    "5D_patterns": [
+      "XXX69",
+      "XX69X",
+      "X69XX",
+      "69XXX"
+    ],
+    "6D_patterns": [
+      "XXXX69",
+      "XXX69X",
+      "XX69XX",
+      "X69XXX",
+      "69XXXX"
+    ]
+  },
+  "70": {
+    "3D_patterns": [
+      "X70",
+      "70X"
+    ],
+    "4D_patterns": [
+      "XX70",
+      "X70X",
+      "70XX"
+    ],
+    "5D_patterns": [
+      "XXX70",
+      "XX70X",
+      "X70XX",
+      "70XXX"
+    ],
+    "6D_patterns": [
+      "XXXX70",
+      "XXX70X",
+      "XX70XX",
+      "X70XXX",
+      "70XXXX"
+    ]
+  },
+  "71": {
+    "3D_patterns": [
+      "X71",
+      "71X"
+    ],
+    "4D_patterns": [
+      "XX71",
+      "X71X",
+      "71XX"
+    ],
+    "5D_patterns": [
+      "XXX71",
+      "XX71X",
+      "X71XX",
+      "71XXX"
+    ],
+    "6D_patterns": [
+      "XXXX71",
+      "XXX71X",
+      "XX71XX",
+      "X71XXX",
+      "71XXXX"
+    ]
+  },
+  "72": {
+    "3D_patterns": [
+      "X72",
+      "72X"
+    ],
+    "4D_patterns": [
+      "XX72",
+      "X72X",
+      "72XX"
+    ],
+    "5D_patterns": [
+      "XXX72",
+      "XX72X",
+      "X72XX",
+      "72XXX"
+    ],
+    "6D_patterns": [
+      "XXXX72",
+      "XXX72X",
+      "XX72XX",
+      "X72XXX",
+      "72XXXX"
+    ]
+  },
+  "73": {
+    "3D_patterns": [
+      "X73",
+      "73X"
+    ],
+    "4D_patterns": [
+      "XX73",
+      "X73X",
+      "73XX"
+    ],
+    "5D_patterns": [
+      "XXX73",
+      "XX73X",
+      "X73XX",
+      "73XXX"
+    ],
+    "6D_patterns": [
+      "XXXX73",
+      "XXX73X",
+      "XX73XX",
+      "X73XXX",
+      "73XXXX"
+    ]
+  },
+  "74": {
+    "3D_patterns": [
+      "X74",
+      "74X"
+    ],
+    "4D_patterns": [
+      "XX74",
+      "X74X",
+      "74XX"
+    ],
+    "5D_patterns": [
+      "XXX74",
+      "XX74X",
+      "X74XX",
+      "74XXX"
+    ],
+    "6D_patterns": [
+      "XXXX74",
+      "XXX74X",
+      "XX74XX",
+      "X74XXX",
+      "74XXXX"
+    ]
+  },
+  "75": {
+    "3D_patterns": [
+      "X75",
+      "75X"
+    ],
+    "4D_patterns": [
+      "XX75",
+      "X75X",
+      "75XX"
+    ],
+    "5D_patterns": [
+      "XXX75",
+      "XX75X",
+      "X75XX",
+      "75XXX"
+    ],
+    "6D_patterns": [
+      "XXXX75",
+      "XXX75X",
+      "XX75XX",
+      "X75XXX",
+      "75XXXX"
+    ]
+  },
+  "76": {
+    "3D_patterns": [
+      "X76",
+      "76X"
+    ],
+    "4D_patterns": [
+      "XX76",
+      "X76X",
+      "76XX"
+    ],
+    "5D_patterns": [
+      "XXX76",
+      "XX76X",
+      "X76XX",
+      "76XXX"
+    ],
+    "6D_patterns": [
+      "XXXX76",
+      "XXX76X",
+      "XX76XX",
+      "X76XXX",
+      "76XXXX"
+    ]
+  },
+  "77": {
+    "3D_patterns": [
+      "X77",
+      "77X"
+    ],
+    "4D_patterns": [
+      "XX77",
+      "X77X",
+      "77XX"
+    ],
+    "5D_patterns": [
+      "XXX77",
+      "XX77X",
+      "X77XX",
+      "77XXX"
+    ],
+    "6D_patterns": [
+      "XXXX77",
+      "XXX77X",
+      "XX77XX",
+      "X77XXX",
+      "77XXXX"
+    ]
+  },
+  "78": {
+    "3D_patterns": [
+      "X78",
+      "78X"
+    ],
+    "4D_patterns": [
+      "XX78",
+      "X78X",
+      "78XX"
+    ],
+    "5D_patterns": [
+      "XXX78",
+      "XX78X",
+      "X78XX",
+      "78XXX"
+    ],
+    "6D_patterns": [
+      "XXXX78",
+      "XXX78X",
+      "XX78XX",
+      "X78XXX",
+      "78XXXX"
+    ]
+  },
+  "79": {
+    "3D_patterns": [
+      "X79",
+      "79X"
+    ],
+    "4D_patterns": [
+      "XX79",
+      "X79X",
+      "79XX"
+    ],
+    "5D_patterns": [
+      "XXX79",
+      "XX79X",
+      "X79XX",
+      "79XXX"
+    ],
+    "6D_patterns": [
+      "XXXX79",
+      "XXX79X",
+      "XX79XX",
+      "X79XXX",
+      "79XXXX"
+    ]
+  },
+  "80": {
+    "3D_patterns": [
+      "X80",
+      "80X"
+    ],
+    "4D_patterns": [
+      "XX80",
+      "X80X",
+      "80XX"
+    ],
+    "5D_patterns": [
+      "XXX80",
+      "XX80X",
+      "X80XX",
+      "80XXX"
+    ],
+    "6D_patterns": [
+      "XXXX80",
+      "XXX80X",
+      "XX80XX",
+      "X80XXX",
+      "80XXXX"
+    ]
+  },
+  "81": {
+    "3D_patterns": [
+      "X81",
+      "81X"
+    ],
+    "4D_patterns": [
+      "XX81",
+      "X81X",
+      "81XX"
+    ],
+    "5D_patterns": [
+      "XXX81",
+      "XX81X",
+      "X81XX",
+      "81XXX"
+    ],
+    "6D_patterns": [
+      "XXXX81",
+      "XXX81X",
+      "XX81XX",
+      "X81XXX",
+      "81XXXX"
+    ]
+  },
+  "82": {
+    "3D_patterns": [
+      "X82",
+      "82X"
+    ],
+    "4D_patterns": [
+      "XX82",
+      "X82X",
+      "82XX"
+    ],
+    "5D_patterns": [
+      "XXX82",
+      "XX82X",
+      "X82XX",
+      "82XXX"
+    ],
+    "6D_patterns": [
+      "XXXX82",
+      "XXX82X",
+      "XX82XX",
+      "X82XXX",
+      "82XXXX"
+    ]
+  },
+  "83": {
+    "3D_patterns": [
+      "X83",
+      "83X"
+    ],
+    "4D_patterns": [
+      "XX83",
+      "X83X",
+      "83XX"
+    ],
+    "5D_patterns": [
+      "XXX83",
+      "XX83X",
+      "X83XX",
+      "83XXX"
+    ],
+    "6D_patterns": [
+      "XXXX83",
+      "XXX83X",
+      "XX83XX",
+      "X83XXX",
+      "83XXXX"
+    ]
+  },
+  "84": {
+    "3D_patterns": [
+      "X84",
+      "84X"
+    ],
+    "4D_patterns": [
+      "XX84",
+      "X84X",
+      "84XX"
+    ],
+    "5D_patterns": [
+      "XXX84",
+      "XX84X",
+      "X84XX",
+      "84XXX"
+    ],
+    "6D_patterns": [
+      "XXXX84",
+      "XXX84X",
+      "XX84XX",
+      "X84XXX",
+      "84XXXX"
+    ]
+  },
+  "85": {
+    "3D_patterns": [
+      "X85",
+      "85X"
+    ],
+    "4D_patterns": [
+      "XX85",
+      "X85X",
+      "85XX"
+    ],
+    "5D_patterns": [
+      "XXX85",
+      "XX85X",
+      "X85XX",
+      "85XXX"
+    ],
+    "6D_patterns": [
+      "XXXX85",
+      "XXX85X",
+      "XX85XX",
+      "X85XXX",
+      "85XXXX"
+    ]
+  },
+  "86": {
+    "3D_patterns": [
+      "X86",
+      "86X"
+    ],
+    "4D_patterns": [
+      "XX86",
+      "X86X",
+      "86XX"
+    ],
+    "5D_patterns": [
+      "XXX86",
+      "XX86X",
+      "X86XX",
+      "86XXX"
+    ],
+    "6D_patterns": [
+      "XXXX86",
+      "XXX86X",
+      "XX86XX",
+      "X86XXX",
+      "86XXXX"
+    ]
+  },
+  "87": {
+    "3D_patterns": [
+      "X87",
+      "87X"
+    ],
+    "4D_patterns": [
+      "XX87",
+      "X87X",
+      "87XX"
+    ],
+    "5D_patterns": [
+      "XXX87",
+      "XX87X",
+      "X87XX",
+      "87XXX"
+    ],
+    "6D_patterns": [
+      "XXXX87",
+      "XXX87X",
+      "XX87XX",
+      "X87XXX",
+      "87XXXX"
+    ]
+  },
+  "88": {
+    "3D_patterns": [
+      "X88",
+      "88X"
+    ],
+    "4D_patterns": [
+      "XX88",
+      "X88X",
+      "88XX"
+    ],
+    "5D_patterns": [
+      "XXX88",
+      "XX88X",
+      "X88XX",
+      "88XXX"
+    ],
+    "6D_patterns": [
+      "XXXX88",
+      "XXX88X",
+      "XX88XX",
+      "X88XXX",
+      "88XXXX"
+    ]
+  },
+  "89": {
+    "3D_patterns": [
+      "X89",
+      "89X"
+    ],
+    "4D_patterns": [
+      "XX89",
+      "X89X",
+      "89XX"
+    ],
+    "5D_patterns": [
+      "XXX89",
+      "XX89X",
+      "X89XX",
+      "89XXX"
+    ],
+    "6D_patterns": [
+      "XXXX89",
+      "XXX89X",
+      "XX89XX",
+      "X89XXX",
+      "89XXXX"
+    ]
+  },
+  "90": {
+    "3D_patterns": [
+      "X90",
+      "90X"
+    ],
+    "4D_patterns": [
+      "XX90",
+      "X90X",
+      "90XX"
+    ],
+    "5D_patterns": [
+      "XXX90",
+      "XX90X",
+      "X90XX",
+      "90XXX"
+    ],
+    "6D_patterns": [
+      "XXXX90",
+      "XXX90X",
+      "XX90XX",
+      "X90XXX",
+      "90XXXX"
+    ]
+  },
+  "91": {
+    "3D_patterns": [
+      "X91",
+      "91X"
+    ],
+    "4D_patterns": [
+      "XX91",
+      "X91X",
+      "91XX"
+    ],
+    "5D_patterns": [
+      "XXX91",
+      "XX91X",
+      "X91XX",
+      "91XXX"
+    ],
+    "6D_patterns": [
+      "XXXX91",
+      "XXX91X",
+      "XX91XX",
+      "X91XXX",
+      "91XXXX"
+    ]
+  },
+  "92": {
+    "3D_patterns": [
+      "X92",
+      "92X"
+    ],
+    "4D_patterns": [
+      "XX92",
+      "X92X",
+      "92XX"
+    ],
+    "5D_patterns": [
+      "XXX92",
+      "XX92X",
+      "X92XX",
+      "92XXX"
+    ],
+    "6D_patterns": [
+      "XXXX92",
+      "XXX92X",
+      "XX92XX",
+      "X92XXX",
+      "92XXXX"
+    ]
+  },
+  "93": {
+    "3D_patterns": [
+      "X93",
+      "93X"
+    ],
+    "4D_patterns": [
+      "XX93",
+      "X93X",
+      "93XX"
+    ],
+    "5D_patterns": [
+      "XXX93",
+      "XX93X",
+      "X93XX",
+      "93XXX"
+    ],
+    "6D_patterns": [
+      "XXXX93",
+      "XXX93X",
+      "XX93XX",
+      "X93XXX",
+      "93XXXX"
+    ]
+  },
+  "94": {
+    "3D_patterns": [
+      "X94",
+      "94X"
+    ],
+    "4D_patterns": [
+      "XX94",
+      "X94X",
+      "94XX"
+    ],
+    "5D_patterns": [
+      "XXX94",
+      "XX94X",
+      "X94XX",
+      "94XXX"
+    ],
+    "6D_patterns": [
+      "XXXX94",
+      "XXX94X",
+      "XX94XX",
+      "X94XXX",
+      "94XXXX"
+    ]
+  },
+  "95": {
+    "3D_patterns": [
+      "X95",
+      "95X"
+    ],
+    "4D_patterns": [
+      "XX95",
+      "X95X",
+      "95XX"
+    ],
+    "5D_patterns": [
+      "XXX95",
+      "XX95X",
+      "X95XX",
+      "95XXX"
+    ],
+    "6D_patterns": [
+      "XXXX95",
+      "XXX95X",
+      "XX95XX",
+      "X95XXX",
+      "95XXXX"
+    ]
+  },
+  "96": {
+    "3D_patterns": [
+      "X96",
+      "96X"
+    ],
+    "4D_patterns": [
+      "XX96",
+      "X96X",
+      "96XX"
+    ],
+    "5D_patterns": [
+      "XXX96",
+      "XX96X",
+      "X96XX",
+      "96XXX"
+    ],
+    "6D_patterns": [
+      "XXXX96",
+      "XXX96X",
+      "XX96XX",
+      "X96XXX",
+      "96XXXX"
+    ]
+  },
+  "97": {
+    "3D_patterns": [
+      "X97",
+      "97X"
+    ],
+    "4D_patterns": [
+      "XX97",
+      "X97X",
+      "97XX"
+    ],
+    "5D_patterns": [
+      "XXX97",
+      "XX97X",
+      "X97XX",
+      "97XXX"
+    ],
+    "6D_patterns": [
+      "XXXX97",
+      "XXX97X",
+      "XX97XX",
+      "X97XXX",
+      "97XXXX"
+    ]
+  },
+  "98": {
+    "3D_patterns": [
+      "X98",
+      "98X"
+    ],
+    "4D_patterns": [
+      "XX98",
+      "X98X",
+      "98XX"
+    ],
+    "5D_patterns": [
+      "XXX98",
+      "XX98X",
+      "X98XX",
+      "98XXX"
+    ],
+    "6D_patterns": [
+      "XXXX98",
+      "XXX98X",
+      "XX98XX",
+      "X98XXX",
+      "98XXXX"
+    ]
+  },
+  "99": {
+    "3D_patterns": [
+      "X99",
+      "99X"
+    ],
+    "4D_patterns": [
+      "XX99",
+      "X99X",
+      "99XX"
+    ],
+    "5D_patterns": [
+      "XXX99",
+      "XX99X",
+      "X99XX",
+      "99XXX"
+    ],
+    "6D_patterns": [
+      "XXXX99",
+      "XXX99X",
+      "XX99XX",
+      "X99XXX",
+      "99XXXX"
+    ]
+  },
+  "00": {
+    "3D_patterns": [
+      "X00",
+      "00X"
+    ],
+    "4D_patterns": [
+      "XX00",
+      "X00X",
+      "00XX"
+    ],
+    "5D_patterns": [
+      "XXX00",
+      "XX00X",
+      "X00XX",
+      "00XXX"
+    ],
+    "6D_patterns": [
+      "XXXX00",
+      "XXX00X",
+      "XX00XX",
+      "X00XXX",
+      "00XXXX"
+    ]
+  }
+}

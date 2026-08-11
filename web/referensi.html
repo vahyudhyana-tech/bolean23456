@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Referensi 2D</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar__brand">
+      <strong>BOLEAN</strong>
+      <span>Referensi</span>
+    </div>
+    <nav class="topbar__nav">
+      <a href="/prediksi"><button>Prediksi</button></a>
+      <a href="/referensi"><button>Referensi</button></a>
+      <a href="/result"><button>Hasil</button></a>
+    </nav>
+  </header>
+
+  <main class="panel">
+    <div class="panel__header">
+      <h2>Referensi 2D</h2>
+      <p>Gunakan filter untuk menemukan entry 2D, jalur, kategori, dan referensi tambahan.</p>
+    </div>
+
+    <div class="card card--filter">
+      <input id="search-input" type="search" placeholder="Cari 2D, atas/bawah, jalur, kepala, ekor..." />
+    </div>
+
+    <div class="card card--table">
+      <div class="table-wrapper">
+        <table>
+          <thead>
+            <tr>
+              <th>2D</th>
+              <th>Kategori</th>
+              <th>Jalur</th>
+              <th>Sum</th>
+              <th>Parity</th>
+              <th>Reverse</th>
+              <th>Kepala Besar/Kecil</th>
+              <th>Ekor Besar/Kecil</th>
+              <th>Kepala Genap/Ganjil</th>
+              <th>Ekor Genap/Ganjil</th>
+              <th>Kepala Prima</th>
+              <th>Ekor Prima</th>
+            </tr>
+          </thead>
+          <tbody id="reference-body"></tbody>
+        </table>
+      </div>
+    </div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
