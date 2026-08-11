@@ -151,6 +151,14 @@ const initialize = async () => {
   if (twoSelect && referenceData[0]) {
     selectTwo(referenceData[0]['2D']);
   }
+  // load any saved results and render
+  if (typeof loadResults === 'function') loadResults();
+  if (results && results.length) {
+    // ensure selected result is the last one
+    currentSelectedResult = results[results.length - 1].value;
+    renderResultsList();
+    renderRefTableForResults(results);
+  }
 };
 
 if (searchInput) {
@@ -189,6 +197,28 @@ let currentRefTab = '2dd';
 let currentSelectedResult = null;
 
 let results = [];
+
+const RESULTS_KEY = 'bolean_results_v1';
+
+const saveResults = () => {
+  try {
+    localStorage.setItem(RESULTS_KEY, JSON.stringify(results));
+  } catch (e) {
+    // ignore storage errors
+  }
+};
+
+const loadResults = () => {
+  try {
+    const raw = localStorage.getItem(RESULTS_KEY);
+    if (raw) {
+      const parsed = JSON.parse(raw);
+      if (Array.isArray(parsed)) results = parsed;
+    }
+  } catch (e) {
+    results = [];
+  }
+};
 
 const isNumeric = (s) => /^\d+$/.test(String(s));
 
@@ -407,6 +437,7 @@ if (addResultBtn) {
     if (v.length < 2 || v.length > 6) return alert('Masukkan hasil antara 2 hingga 6 digit.');
     const t = inferResultType(v);
     results.push({ type: t, value: v });
+    try { saveResults(); } catch (e) {}
     setSelectedResult(v);
     renderResultsList();
     renderRefTableForResults(results);
@@ -441,6 +472,7 @@ if (clearResultsBtn) {
     results = [];
     if (resultsList) resultsList.innerHTML = '';
     if (refTableBody) refTableBody.innerHTML = '<tr><td colspan="11">Pilih result untuk melihat referensi terkait.</td></tr>';
+    try { localStorage.removeItem(RESULTS_KEY); } catch (e) {}
   });
 }
 
