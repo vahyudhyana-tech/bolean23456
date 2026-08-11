@@ -1,0 +1,11 @@
+{
+  "version": 3,
+  "routes": [
+    { "src": "/$", "dest": "/web/index.html" },
+    { "src": "/prediksi$", "dest": "/web/prediksi.html" },
+    { "src": "/referensi$", "dest": "/web/referensi.html" },
+    { "src": "/result$", "dest": "/web/result.html" },
+    { "src": "/reference.json$", "dest": "/web/reference.json" },
+    { "src": "/(.*)$", "dest": "/web/$1" }
+  ]
+}

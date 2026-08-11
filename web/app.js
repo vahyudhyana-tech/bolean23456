@@ -125,9 +125,21 @@ const selectTwo = (value) => {
   renderPatterns(item);
 };
 
-const initialize = async () => {
+const fetchReferenceData = async () => {
+  try {
+    const response = await fetch('/reference.json');
+    if (response.ok) {
+      return await response.json();
+    }
+  } catch (error) {
+    // ignore and fallback to API
+  }
   const response = await fetch('/api/reference');
-  referenceData = await response.json();
+  return await response.json();
+};
+
+const initialize = async () => {
+  referenceData = await fetchReferenceData();
 
   populateSelect();
   updateStats();
